@@ -1,0 +1,94 @@
+main {
+    border-style: solid;
+    border-color: blue;
+    border-width: 10px;
+}
+
+header {
+    border-style: solid;
+    border-color: blue;
+    border-width: 10px;
+}
+
+body {
+    color: red;
+}
+
+img {
+    margin: 10px 10px 10px;
+}
+
+li {
+    line-height: 1.5em;
+    color: white;
+}
+
+nav li {
+    display: inline;
+    padding: 15px;
+}
+
+.black-border{
+    /* border: 5px solid black; */
+    margin-left: 50%;
+}
+
+#green-background {
+    background-color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.3em;
+    margin-bottom: 0px;
+}
+
+#blue-background {
+    background-color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.3em;
+}
+
+a:hover {
+    color: blue;    
+}
+
+#title_ik {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 0px;
+}
+
+h2.content1 {
+    margin-bottom: 0px;
+    margin-left: 0 auto;
+}
+
+#content1 {
+margin-top: 0px;
+padding: 10px 5px 5px 5px;
+line-height: 1.2em;
+}
+
+
+@media (max-width: 600px) {
+    .black-border{
+        margin-left: 30%;
+    }
+    nav{
+        margin-left: 20%;
+    }
+    main{
+        margin-left: 0%;
+    }
+    h2{
+        margin-left: 30%;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    body{
+        background-color: yellow;
+        color: black;
+        line-height: 1.5em;
+        font-size: 0.8em;
+    }
+}
